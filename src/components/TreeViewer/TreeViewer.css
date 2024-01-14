@@ -1,0 +1,10 @@
+.no-result-text {
+    color: #ffffff;
+}
+
+.tree-viewer__menu-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}

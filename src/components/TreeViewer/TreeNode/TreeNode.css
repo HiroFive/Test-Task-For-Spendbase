@@ -1,0 +1,69 @@
+.tree-viewer {
+    background: #242322;
+    font-family: monospace;
+    font-size: 16px;
+    color: white;
+    user-select: none;
+    padding: 20px;
+    border-radius: 0.4em;
+}
+
+.tree-viewer .tree-branch-wrapper,
+.tree-viewer .tree-node__leaf {
+    outline: none;
+    outline: none;
+}
+
+.tree-viewer .tree,
+.tree-viewer .tree-node,
+.tree-viewer .tree-node-group {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.tree-viewer .tree-node {
+    cursor: pointer;
+}
+
+.tree-viewer .tree-node .name:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.tree-viewer .tree-node--focused .name {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.tree-viewer .tree-node {
+    display: inline-block;
+}
+
+.tree-viewer .checkbox-icon {
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.tree-viewer .tree-node:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.tree-viewer .tree .tree-node--focused {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.tree-viewer .tree .tree-node--selected {
+    background: rgba(48, 107, 176);
+}
+
+.tree-viewer .tree-node__branch {
+    display: block;
+}
+
+.tree-viewer .icon {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.name {
+    color: white;
+}

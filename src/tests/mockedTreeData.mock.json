@@ -1,0 +1,101 @@
+{
+  "name": "",
+  "id": 890,
+  "children": [
+    {
+      "id": 1312,
+      "name": "Fruits",
+      "children": [
+        {
+          "name": "Avocados.json",
+          "id": 690
+        },
+        {
+          "name": "Bananas.json",
+          "id": 1001
+        },
+        {
+          "name": "Berries.json",
+          "id": 793
+        },
+        {
+          "name": "Oranges.json",
+          "id": 18
+        },
+        {
+          "name": "Pears.json",
+          "id": 9990
+        }
+      ]
+    },
+    {
+      "id": 2312,
+      "name": "Drinks",
+      "children": [
+        {
+          "name": "Apple Juice.json",
+          "id": 7
+        },
+        {
+          "name": "Chocolate.json",
+          "id": 12
+        },
+        {
+          "name": "Coffee.json",
+          "id": 1
+        },
+        {
+          "id": 908,
+          "name": "Tea",
+          "children": [
+            {
+              "name": "BlackTea.js",
+              "id": 923
+            },
+            {
+              "name": "GreenTea.js",
+              "id": 43
+            },
+            {
+              "name": "RedTea.js",
+              "id": 23
+            },
+            {
+              "name": "Matcha.js",
+              "id": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Vegetables",
+      "metadata": {
+        "isAdminOnly": true
+      },
+      "children": [
+        {
+          "name": "Beets.css",
+          "id": 672
+        },
+        {
+          "name": "Carrots.css",
+          "id": 13
+        },
+        {
+          "name": "Celery.css",
+          "id": 123
+        },
+        {
+          "name": "Lettuce.css",
+          "id": 893
+        },
+        {
+          "name": "Onions.css",
+          "id": 82
+        }
+      ]
+    }
+  ]
+}

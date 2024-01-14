@@ -1,0 +1,182 @@
+export const treeElementDataMock = [
+  {
+    id: 890,
+    name: "",
+    children: [1312, 2312, 42],
+    parent: null,
+  },
+  {
+    id: 1312,
+    name: "Fruits",
+    children: [690, 1001, 793, 18, 9990],
+    parent: 890,
+  },
+  {
+    id: 690,
+    name: "Avocados.json",
+    children: [],
+    parent: 1312,
+  },
+  {
+    id: 1001,
+    name: "Bananas.json",
+    children: [],
+    parent: 1312,
+  },
+  {
+    id: 793,
+    name: "Berries.json",
+    children: [],
+    parent: 1312,
+  },
+  {
+    id: 18,
+    name: "Oranges.json",
+    children: [],
+    parent: 1312,
+  },
+  {
+    id: 9990,
+    name: "Pears.json",
+    children: [],
+    parent: 1312,
+  },
+  {
+    id: 2312,
+    name: "Drinks",
+    children: [7, 12, 1, 908],
+    parent: 890,
+  },
+  {
+    id: 7,
+    name: "Apple Juice.json",
+    children: [],
+    parent: 2312,
+  },
+  {
+    id: 12,
+    name: "Chocolate.json",
+    children: [],
+    parent: 2312,
+  },
+  {
+    id: 1,
+    name: "Coffee.json",
+    children: [],
+    parent: 2312,
+  },
+  {
+    id: 908,
+    name: "Tea",
+    children: [923, 43, 23, 4],
+    parent: 2312,
+  },
+  {
+    id: 923,
+    name: "BlackTea.js",
+    children: [],
+    parent: 908,
+  },
+  {
+    id: 43,
+    name: "GreenTea.js",
+    children: [],
+    parent: 908,
+  },
+  {
+    id: 23,
+    name: "RedTea.js",
+    children: [],
+    parent: 908,
+  },
+  {
+    id: 4,
+    name: "Matcha.js",
+    children: [],
+    parent: 908,
+  },
+  {
+    id: 42,
+    name: "Vegetables",
+    children: [672, 13, 123, 893, 82],
+    parent: 890,
+    metadata: {
+      isAdminOnly: true,
+    },
+  },
+  {
+    id: 672,
+    name: "Beets.css",
+    children: [],
+    parent: 42,
+  },
+  {
+    id: 13,
+    name: "Carrots.css",
+    children: [],
+    parent: 42,
+  },
+  {
+    id: 123,
+    name: "Celery.css",
+    children: [],
+    parent: 42,
+  },
+  {
+    id: 893,
+    name: "Lettuce.css",
+    children: [],
+    parent: 42,
+  },
+  {
+    id: 82,
+    name: "Onions.css",
+    children: [],
+    parent: 42,
+  },
+];
+
+export const treeElementFilteringResult = [
+  {
+    id: 890,
+    name: "",
+    children: [1312],
+    parent: null,
+  },
+  {
+    id: 1312,
+    name: "Fruits",
+    children: [690, 1001, 793, 18, 9990],
+    parent: 890,
+  },
+  {
+    id: 690,
+    name: "Avocados.json",
+    children: [],
+    parent: 1312,
+  },
+  {
+    id: 1001,
+    name: "Bananas.json",
+    children: [],
+    parent: 1312,
+  },
+  {
+    id: 793,
+    name: "Berries.json",
+    children: [],
+    parent: 1312,
+  },
+  {
+    id: 18,
+    name: "Oranges.json",
+    children: [],
+    parent: 1312,
+  },
+  {
+    id: 9990,
+    name: "Pears.json",
+    children: [],
+    parent: 1312,
+  },
+];
